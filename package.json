@@ -1,0 +1,32 @@
+{
+
+  "name": "youtube-trending-api",
+
+  "version": "1.0.0",
+
+  "description": "A RESTful API that retrieves the most trending YouTube videos",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "node index.js"
+
+  },
+
+  "author": "Your Name",
+
+  "license": "MIT",
+
+  "dependencies": {
+
+    "express": "^4.17.1",
+
+    "googleapis": "^91.0.0",
+
+    "dotenv": "^16.0.0"
+
+  }
+
+}
+
