@@ -17,7 +17,10 @@ const youtube = google.youtube({
   auth: 'AIzaSyCg7JUctxURjRj5TTRZKHlDHgZohbl3Hko',
 
 });
-
+app.get('/', (res)=>{
+  res.send('hello
+')
+})
 app.post('/trending', async (req, res) => {
 
   try {
